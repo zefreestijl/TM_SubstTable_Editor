@@ -1,4 +1,4 @@
-![3363e68c006bb507b33bed3828c08d6](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/f82c4d37-c5bd-406e-b3e4-de6d08cc7a2f)# TM_SubstTable_Editor
+# TM_SubstTable_Editor
 
 **Intro:**
 
