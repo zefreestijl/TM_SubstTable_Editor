@@ -21,6 +21,7 @@ Web App Version:
 
 https://zefreestijl.github.io/TM_SubstTable_Editor/
 
+.
 
 Desktop App Version (by Electron):
 
