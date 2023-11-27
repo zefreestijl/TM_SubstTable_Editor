@@ -1,0 +1,26 @@
+
+label { color: gray; font-style: normal; font-size: 13px;}
+
+div.wrap { width: 100%; overflow: hidden;}
+
+button { margin-right: 30px; opacity: .5; border-style: hidden;
+    background-color: bisque; }
+
+input {display: flexbox;}
+
+
+q {font-weight: bold;}
+
+
+/* Class */
+.left1, .right2 { float: left; width: 50%; }
+
+
+/* Id */
+p#p2 { color: gray; font-style: normal; line-height: 20px; font-size: 15px;}
+
+p#p1 { color: rgb(77, 77, 77); font-style: normal; 
+    line-height: 5px; font-size: 15px;}
+
+
+#btn_export2 { background-color: pink;  };

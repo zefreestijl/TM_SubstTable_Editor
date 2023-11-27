@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TM Subst Table Editor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+        <script type="text/javascript" src="node_modules/tui-grid/dist/tui-grid.js"></script>
+
+        
+        <!-- Theme -->
+        <link rel="stylesheet" type="text/css" href="node_modules/tui-grid/dist/tui-grid.css" />
+        <link rel="stylesheet" type="text/css" href="c0_css0.css" />
+
+
+        <!-- Data -->
+        <script type="module" src="d1_dataTree1.js" ></script>
+        <script defer type="module" src="d2_dataTable2.js"></script>
+        <script defer type="module" src="d3_dataMatch3.js"></script>
+
+
+
+    </head>
+
+
+    <body>      
+
+        <div class="wrap">
+            <br>
+            <form id="fomr1"  >
+                <label>Load Library Csv : 
+                    <input type="file" id="csvFile1" accept=".csv" 
+                    title="Load csv file from Twinmotion User Library to create table list." />
+
+                <label>Load Match Excel : 
+                    <input type="file" id="xlsFile2" accept=".xls, .xlsx" 
+                    title="Load match table xls of previous export to create match table list." />
+                        
+                    
+                <button type="button" title="Expand match table with full options."  
+                id="btn_expand1" > Expand Match Table </button>
+                
+                <button type="button" title="Eport edited match table to new excel file."              
+                id="btn_export2" > Export Excel Table </button> 
+                
+            </form>
+            
+
+            <br><br><br>  
+        </div>
+
+
+
+        <div class="wrap">
+            <div id="grid1" class="left1"> </div>
+            <div id="grid2" class="right2" > </div>
+        </div>`
+        
+        
+        <p id="p1">
+            <br><br><br>
+            Data Comparison Note:
+            <p id="p1"><br> <q>1. New Added </q>  no matched material found in match table → will create new item automatically. </p>
+            <p id="p1"><br> <q>2. ID Replaced </q>  current material ID has been changed → will update to new ID automatically. </p>
+            <p id="p1"><br> <q>3. Has Deleted </q>  material has been removed from library → new match table will ignore the item. </p>
+
+        </p>
+        
+        <p id="p2" >
+            ---<br>
+            Original Author : <a href="https://www.dln.com.hk/"  target="_blank"> <img src="icon_dln.jpg" height="20" > </a>
+            &#160 &#160 &#160 &#160 &#160 &#160 &#160
+            Datagrid structure source from: <a href="https://nhn.github.io/tui.grid/latest/" target="_blank"> <img src="icon_toast.jpg" height="20" > </a>
+        </p>
+        
+    </body>
+</html>
