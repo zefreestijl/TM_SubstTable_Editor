@@ -1,4 +1,4 @@
-# TM_SubstTable_Editor
+![3363e68c006bb507b33bed3828c08d6](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/f82c4d37-c5bd-406e-b3e4-de6d08cc7a2f)# TM_SubstTable_Editor
 
 **Intro:**
 
@@ -30,18 +30,21 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 --
 
 **0. UI Outlook:**
+![4edf284a560350af3462f2d1235e026](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/6c2feb6e-7a41-40f3-9731-22b9f8befff8)
 
 
 
 ..
 
 **1. Loading Material Library CSV File from Twinmotion:**
+![3363e68c006bb507b33bed3828c08d6](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/f60141e2-3081-4c91-99a9-bd3bd26b4486)
 
 
 
 ..
 
 **2. Loading Previously Exported Match Table Excel File:**
+![a9e124f6df65a6b3c97b9e09899e011](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/4cbe313d-e0bd-43a0-a2c8-2272cd1c842b)
 
 
 
