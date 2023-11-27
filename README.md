@@ -17,12 +17,12 @@ as well as to compare data between the newly export material library and the pre
 
 **Link:**
 
-Web App:
+Web App Version:
 
 https://zefreestijl.github.io/TM_SubstTable_Editor/
 
 
-Download Desktop App (by Electron):
+Desktop App Version (by Electron):
 
 https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
@@ -59,14 +59,17 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 **0. 基本操作介面說明:**
 
 
+.
 
 **1. 載入 Twinmotion User Library 材料清單步驟說明:**
 
 
+.
 
 **2. 自動生成的匹配表單基本功能說明:**
 
 
+.
 
 **3. 資料匹配狀況說明:**
 
