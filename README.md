@@ -33,16 +33,19 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
 
 ..
+
 **1. Loading Material Library CSV File from Twinmotion:**
 
 
 
 ..
+
 **2. Loading Previously Exported Match Table Excel File:**
 
 
 
 ..
+
 **3. Data Comparison Note:**
 
 "1. New Added" - no matched material found in match table → will create new item automatically.
