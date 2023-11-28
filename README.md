@@ -30,7 +30,7 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 --
 
 **0. UI Outlook:**
-![4edf284a560350af3462f2d1235e026](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/6c2feb6e-7a41-40f3-9731-22b9f8befff8)
+![image](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/bd582539-c9a5-47d5-bce0-78ec22c47be5)
 
 
 
