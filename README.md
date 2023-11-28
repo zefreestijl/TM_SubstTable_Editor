@@ -46,6 +46,8 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
 ![3363e68c006bb507b33bed3828c08d6](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/f60141e2-3081-4c91-99a9-bd3bd26b4486)
 
+![5035c295cdbbb743ec60ec46b26c441](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/a94406c8-7732-47de-9c41-b72d113b2725)
+
 
 
 ..
@@ -86,13 +88,16 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 --
 
 
-4. Save the Exported Xsl File to CSV
+**4. Save the Exported Xsl File to CSV**
 
 Before Importing datasmith model with the matched data table, we have to Convert the xsl to CSV-UTF8 first.
 
 (Still trying to figure out how to export the csv in UTF8 enconding inside the Table Editor App..)
 
-4. 將導出的Excel檔案另存為CSV格式
+
+--
+
+**4. 將導出的Excel檔案另存為CSV格式**
 
 因為還在研究如何從Web App編輯器中導出UTF-8編碼的CSV檔案...
 
