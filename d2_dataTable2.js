@@ -262,7 +262,7 @@ function func_addRow()
 
         var data = gridData1[index1];
 
-        var item1 = { code: data['code'], 
+        var item1 = { code: data['code'], state : data['state'], 
         csvname: data['csvname'], rvtname: '--', id: data['id']
         , instance: data['instance'], condition: data['condition'], 
         filter: data['filter'], type: data['type'], 
