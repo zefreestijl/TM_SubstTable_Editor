@@ -55,7 +55,11 @@ https://twinmotionhelp.epicgames.com/s/article/Twinmotion-2023-1-Substitution-Ta
 
 ![3363e68c006bb507b33bed3828c08d6](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/f60141e2-3081-4c91-99a9-bd3bd26b4486)
 
+..
+
 ![918ba13b17fe66f33c8c5ff49089a39](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/63330669-8465-40d7-8bd2-021980f4ae9b)
+
+..
 
 ![d1dc2da2d0c10a978bb1003df1e3662](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/6552f69e-1442-45ec-b709-a2a9eaf50585)
 
@@ -70,6 +74,8 @@ https://twinmotionhelp.epicgames.com/s/article/Twinmotion-2023-1-Substitution-Ta
 **2. 自動生成的匹配表單基本功能說明:**
 
 ![image](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/d5e901fb-5c23-4add-8601-b3fdd47cd1e4)
+
+..
 
 ![image](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/69a09190-56e6-4839-8571-de47743ccee0)
 
@@ -101,14 +107,20 @@ https://twinmotionhelp.epicgames.com/s/article/Twinmotion-2023-1-Substitution-Ta
 
 ..
 
-![b9241013a0b2e312cfb7f5472f31f2d](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/680951db-c208-4433-b69b-cf6d51f000d9)
-
-![c931bc944f8394d79f82b168c65efe6](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/82aa4f77-86b9-47d6-a50e-736596be0e9a)
-
-![5533b80219b1bcd16adcf4a204e0bc7](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/615b9947-ac1f-46c7-acd4-c32e51f6c2d6)
+![47e46f6991be15dae5e8ab230191935](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/1a8b0357-d485-43c2-b226-7b7b5217a559)
 
 
+..
 
+![f69a5c2e636857ef564255e6a42ac52](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/6d98030e-77d7-4f0c-89e0-2d391c9d6caa)
+
+
+..
+
+![2bc9eee513d211c2e2e1dc82529c656](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/6e507c91-4484-4852-9448-c7a1010f9d9a)
+
+
+..
 
 --
 
@@ -129,6 +141,8 @@ Before Importing datasmith model with the matched data table, we have to Convert
 
 
 ![7879ba67b21216b509228f3a3fa4b5b](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/bcb6c79f-878f-41e7-83bc-8a7dde64ee25)
+
+..
 
 ![c4ae6650bbd53400d19a75b963de122](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/1f384e52-213e-41d6-aa31-0eb2a076dc9e)
 
