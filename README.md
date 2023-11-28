@@ -154,6 +154,8 @@ Before Importing datasmith model with the matched data table, we have to Convert
 
 **5. 導入Datasmith模型時使用匹配清單前/後對比:**
 
+![image](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/c4302515-cb30-4e54-9fda-d6d995834cf7)
+
 
 
 ..
