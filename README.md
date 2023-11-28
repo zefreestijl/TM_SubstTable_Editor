@@ -114,3 +114,16 @@ Before Importing datasmith model with the matched data table, we have to Convert
 
 ![c4ae6650bbd53400d19a75b963de122](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/1f384e52-213e-41d6-aa31-0eb2a076dc9e)
 
+..
+
+--
+
+**5. Result Before & After Material Matches when Importing a New Datasmith Model**
+
+**5. 導入Datasmith模型時使用匹配清單前/後對比:**
+
+
+
+..
+
+--
