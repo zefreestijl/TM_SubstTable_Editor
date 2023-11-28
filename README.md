@@ -8,6 +8,7 @@ provides basic edit function like insert, delete items and export edited match d
 
 as well as to compare data between the newly export material library and the previously edited match table.
 
+..
 
 可依據 Twinmotion 位於 User Library 中的材料資源庫所導出的 CSV 創建材料匹配清單,
 
@@ -46,11 +47,14 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
 ![3363e68c006bb507b33bed3828c08d6](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/f60141e2-3081-4c91-99a9-bd3bd26b4486)
 
-![5035c295cdbbb743ec60ec46b26c441](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/a94406c8-7732-47de-9c41-b72d113b2725)
+![918ba13b17fe66f33c8c5ff49089a39](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/63330669-8465-40d7-8bd2-021980f4ae9b)
+
 
 
 
 ..
+
+--
 
 **2. Loading Previously Exported Match Table Excel File:**
 
@@ -65,6 +69,8 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
 ..
 
+--
+
 **3. Data Comparison Note:**
 
 **3. 資料匹配狀況說明:**
@@ -76,7 +82,7 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
 "3. Has Deleted" - material has been removed from library → new match table will ignore the item.
 
-
+..
 
 "1. 新添加的材料" - 現有的匹配表單中未找到Twinmotion中的該項材料 → 將自動新建該材料匹配欄位
 
@@ -84,6 +90,7 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
 "3. 已刪除的材料" - Twinmotion中的該項材料已被刪除 → 導出新的材料匹配清單時將會忽略該項材料
 
+..
 
 --
 
@@ -94,8 +101,7 @@ Before Importing datasmith model with the matched data table, we have to Convert
 
 (Still trying to figure out how to export the csv in UTF8 enconding inside the Table Editor App..)
 
-
---
+..
 
 **4. 將導出的Excel檔案另存為CSV格式**
 
