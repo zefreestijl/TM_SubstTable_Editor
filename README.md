@@ -28,6 +28,12 @@ Desktop App Version (by Electron):
 
 https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
+..
+
+Explaination of Each Attributes in the Match Table
+
+https://twinmotionhelp.epicgames.com/s/article/Twinmotion-2023-1-Substitution-Table-Overview?language=en_US
+
 --
 
 **0. UI Outlook:**
