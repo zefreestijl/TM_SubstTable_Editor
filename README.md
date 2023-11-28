@@ -1,4 +1,4 @@
-# TM_SubstTable_Editor
+# TM_SubstTable_Editor / Twinmotion 材料清單匹配編輯器
 
 **Intro:**
 
