@@ -30,7 +30,7 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
 ..
 
-Explaination of Each Attributes in the Match Table
+Explaination of Each Attributes in Match Table
 
 https://twinmotionhelp.epicgames.com/s/article/Twinmotion-2023-1-Substitution-Table-Overview?language=en_US
 
@@ -119,7 +119,7 @@ Before Importing datasmith model with the matched data table, we have to Convert
 所以暫時需要依賴外部程序進行轉檔工作才能在Twinmotion中使用匹配清單..
 
 
-![f9785fc650e3a07335c5fe56846d4bb](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/c96cb89f-4c69-4e62-9d8a-5ee0c08fd275)
+![7879ba67b21216b509228f3a3fa4b5b](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/bcb6c79f-878f-41e7-83bc-8a7dde64ee25)
 
 ![c4ae6650bbd53400d19a75b963de122](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/1f384e52-213e-41d6-aa31-0eb2a076dc9e)
 
