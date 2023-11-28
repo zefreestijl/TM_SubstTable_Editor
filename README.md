@@ -85,3 +85,21 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 
 --
 
+
+4. Save the Exported Xsl File to CSV
+
+Before Importing datasmith model with the matched data table, we have to Convert the xsl to CSV-UTF8 first.
+
+(Still trying to figure out how to export the csv in UTF8 enconding inside the Table Editor App..)
+
+4. 將導出的Excel檔案另存為CSV格式
+
+因為還在研究如何從Web App編輯器中導出UTF-8編碼的CSV檔案...
+
+所以暫時需要依賴外部程序進行轉檔工作才能在Twinmotion中使用匹配清單..
+
+
+![f9785fc650e3a07335c5fe56846d4bb](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/c96cb89f-4c69-4e62-9d8a-5ee0c08fd275)
+
+![c4ae6650bbd53400d19a75b963de122](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/1f384e52-213e-41d6-aa31-0eb2a076dc9e)
+
