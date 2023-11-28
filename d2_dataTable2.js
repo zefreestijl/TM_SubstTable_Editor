@@ -334,10 +334,11 @@ grid.on('editingFinish', ev=>{ isEditing1 = false; });
 // 4a. Auto Check Picked Rows
 grid.on('mousedown', ev => 
 {    
-    //console.log(ev['rowKey'] + " / " + grid.getIndexOfRow(ev['rowKey'] ));
+    //console.log( ev['columnName'] );
     
     if (ev['nativeEvent'].buttons != 1 || ev['rowKey'] == null 
-    || ev['columnName'] == '_checked' || grid.getSelectionRange() != null) 
+    || ev['columnName'] == '_checked' || ev['columnName'] == '_draggable' ||
+     grid.getSelectionRange() != null) 
         return;
 
     else if ( ev['columnName'] == 'rvtname' )
@@ -395,12 +396,56 @@ document.addEventListener('mouseup', (event) =>
 
 
 
+// 4c. Save History Data for Undo / Redo
+var historyData1 = [];
+var currentStep1 = 0;
+
+
+
+
 // 4b. Shortcut for Clear / Insert / Delete Checks
 document.addEventListener("keydown", (event) => 
 {
-    //
     if (isEditing1) return;
 
+
+    if ( historyData1.length > 0 )
+    {
+
+        if (event.ctrlKey && event.key === 'z' && currentStep1 < historyData1.length )
+        {    
+            grid.clear();              
+            grid.resetData(historyData1[currentStep1]);
+            
+            console.log(" ↚  RollBack Step: "  + (currentStep1+1) + " / " + historyData1.length);
+            currentStep1++;
+    
+            return;
+        } 
+    
+        else if (event.ctrlKey  && event.key === 'y' && currentStep1 > 1)
+        {
+            grid.clear();
+            
+            if (currentStep1 > 1)
+                grid.resetData(historyData1[currentStep1-2]);
+
+            /*
+            else
+                grid.resetData(historyData1[0]);
+            */
+
+            console.log(" ↛  Forward Step: "  + (currentStep1-1) + " / " + historyData1.length);
+            currentStep1--;
+
+            return;
+        }
+    
+    }
+
+
+    //
+    var gridData0 = grid.getData();
     gridData1 = grid.getData();
 
     var col0 = grid.getIndexOfColumn(grid.getFocusedCell()['columnName']);
@@ -409,30 +454,50 @@ document.addEventListener("keydown", (event) =>
 
     var arrChecks1 = grid.getCheckedRows();
 
-    if (event.key === 'Delete')
-    {            
-        if (grid.getFocusedCell()['columnName'] == 'rvtname')
-        {        
-            grid.startEditing(grid.getFocusedCell()['rowKey'], 'rvtname');        
-            return;
+
+    //
+    if (event.key === 'Delete' || event.key === 'Insert')
+    {
+        if (event.key === 'Delete')
+        {            
+            if (grid.getFocusedCell()['columnName'] == 'rvtname')
+            {        
+                grid.startEditing(grid.getFocusedCell()['rowKey'], 'rvtname');        
+                return;
+            }
+
+            if (arrChecks1 == null)
+                grid.removeRow(row0);
+
+            else
+                func_removeRow();
+
+
+            if (gridData1.length > 0 && row0 != null)
+                grid.focusAt(index0, col0);
+
+            grid.uncheckAll();
         }
 
-        if (arrChecks1 == null)
-            grid.removeRow(row0);
-
-        else
-            func_removeRow();
-
-
-        grid.focusAt(index0, col0);
-        grid.uncheckAll();
-    }
-
-    else if (event.key === 'Insert')
-    {        
-        func_addRow();
+        else if (event.key === 'Insert')
+        {        
+            if (grid.getFocusedCell()['rowKey'] == null) return;
             
+            func_addRow();
+                
+        }
+
+
+        if (historyData1.length > 20)
+            historyData1.pop();
+        
+        historyData1.splice(0, currentStep1);
+        currentStep1 = 0;
+
+        historyData1.unshift(gridData0);
+        //console.log( historyData1.length + " / " +gridData0.length)
     }
+    
 
     else if (event.key === 'Escape')
     {        
@@ -440,7 +505,10 @@ document.addEventListener("keydown", (event) =>
         
     }
 
+
     gridData1 = grid.getData();
+
+   
 });
 
 
@@ -481,6 +549,7 @@ document.addEventListener('keyup', (event) =>
     
     
 });
+
 
 
 
