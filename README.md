@@ -46,7 +46,7 @@ https://github.com/zefreestijl/TM_SubstTable_Editor/releases/tag/app
 **2. Loading Previously Exported Match Table Excel File:**
 ![image](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/d5e901fb-5c23-4add-8601-b3fdd47cd1e4)
 
-![8225e87fe2d3033e510204558f8bca4](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/e8fcced2-3ec4-4d3f-a833-a4ae8e3c5a42)
+![image](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/69a09190-56e6-4839-8571-de47743ccee0)
 
 
 
