@@ -101,6 +101,15 @@ https://twinmotionhelp.epicgames.com/s/article/Twinmotion-2023-1-Substitution-Ta
 
 ..
 
+![b9241013a0b2e312cfb7f5472f31f2d](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/680951db-c208-4433-b69b-cf6d51f000d9)
+
+![c931bc944f8394d79f82b168c65efe6](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/82aa4f77-86b9-47d6-a50e-736596be0e9a)
+
+![5533b80219b1bcd16adcf4a204e0bc7](https://github.com/zefreestijl/TM_SubstTable_Editor/assets/97733793/615b9947-ac1f-46c7-acd4-c32e51f6c2d6)
+
+
+
+
 --
 
 
