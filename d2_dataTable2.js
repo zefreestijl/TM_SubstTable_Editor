@@ -163,7 +163,9 @@ function func_getCsvFile()
 
 
     grid1.forEach(data => {
-
+        
+        if (data['name'] == null) return;
+        
         var item1 = { code: '--', csvname: data['name'], rvtname: data['name'], id: data['id']
         , instance: 'Instance', condition: 'Contains', filter: 'Name', type: 'Material', 
         };
