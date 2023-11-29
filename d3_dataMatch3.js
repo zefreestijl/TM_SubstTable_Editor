@@ -118,10 +118,11 @@ function func_getStoredData()
     // Renew GridData2
     grid2.clear();
 
-    data2.forEach( data => {                
+    data2.forEach( data => {       
+        
         var item1 = { code: data['code'], 
         csvname: data['csvname'], rvtname: data['rvtname'], id: data['id']
-        , instance: data['instance'], condition: data['condition'], 
+        , instance: data['instance'], condition: data['condition'].replaceAll(' ', '_'), 
         filter: data['filter'], type: data['type'], 
         };
 

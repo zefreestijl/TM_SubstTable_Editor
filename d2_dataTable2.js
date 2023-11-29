@@ -50,14 +50,14 @@ const columns1 = [
                 [ 
                 { text: 'Contains', value: 'Contains' }, 
                 { text: 'Equals', value: 'Equals' }, 
-                { text: 'Starts With', value: '1' }, 
-                { text: 'Ends With', value: '2' }, 
+                { text: 'Starts With', value: 'Starts_With' }, 
+                { text: 'Ends With', value: 'Ends_With' }, 
                 { text: 'Match', value: 'Match' }, 
-                { text: 'Not Contains', value: '3' }, 
-                { text: 'Not Equals', value: '4' }, 
-                { text: 'Not Starts With', value: '5' }, 
-                { text: 'Not Ends With', value: '6' }, 
-                { text: 'Not Match', value: '7' }, 
+                { text: 'Not Contains', value: 'Not_Contains' }, 
+                { text: 'Not Equals', value: 'Not_Equals' }, 
+                { text: 'Not Starts With', value: 'Not_Starts_With' }, 
+                { text: 'Not Ends With', value: 'Not_Ends_With' }, 
+                { text: 'Not Match', value: 'Not_Match' }, 
                 ]
             }
         }
@@ -163,12 +163,14 @@ function func_getCsvFile()
 
 
     grid1.forEach(data => {
-        
+
         if (data['name'] == null) return;
-        
+
         var item1 = { code: '--', csvname: data['name'], rvtname: data['name'], id: data['id']
         , instance: 'Instance', condition: 'Contains', filter: 'Name', type: 'Material', 
         };
+
+
 
         gridData1.push(item1);
 
@@ -336,7 +338,7 @@ grid.on('editingFinish', ev=>{ isEditing1 = false; });
 // 4a. Auto Check Picked Rows
 grid.on('mousedown', ev => 
 {    
-    //console.log( ev['columnName'] );
+    //console.log( ev['columnName'] +" / " + grid.getRow(ev['rowKey'])['condition']+'!!!' );
     
     if (ev['nativeEvent'].buttons != 1 || ev['rowKey'] == null 
     || ev['columnName'] == '_checked' || ev['columnName'] == '_draggable' ||
